@@ -2015,11 +2015,12 @@ An example of use:
 The command *trunc*
 '''''''''''''''''''
 
-This operator have been introduce to remove a piece of mesh or/and split all element or for a particular label element
-The three named parameter
+This operator has been introduced to remove a piece of mesh or/and split all element or for a particular label element.
+The three named parameter:
+
 - boolean function to keep or remove elements
 - :freefem:`split=` sets the level n of triangle splitting. each triangle is splitted in n × n ( one by default)
-- freefem:`label=`   sets the label number of new boundary item (1 by default)
+- :freefem:`label=`   sets the label number of new boundary item (1 by default)
 
 
 An example of use
